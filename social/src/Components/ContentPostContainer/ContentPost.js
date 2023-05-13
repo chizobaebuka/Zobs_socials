@@ -14,10 +14,12 @@ export default function ContentPost() {
                 <input type="text" className="contentWritingPart" placeholder='Write your Thoughts....'/>
             </div>
             <div style={{display:"flex", marginLeft:"10px"}}>
-                <div>     
-                    <img src={`${ImageIcon}`} className='icons' alt="" />
-                    <img src={`${emojiIcon}`} className='icons' alt="" />
-                    <img src={`${videoIcon}`} className='icons' alt="" />
+                <div style={{display:"flex", justifyContent:"space-between", width:"100%", alignItems:"flex-end", paddingRight:"35px"}}>     
+                    <div>
+                        <img src={`${ImageIcon}`} className='icons' alt="" />
+                        <img src={`${emojiIcon}`} className='icons' alt="" />
+                        <img src={`${videoIcon}`} className='icons' alt="" />
+                    </div>
                     <button style={{marginLeft:"35px", paddingLeft:"15px", paddingRight:"15px", paddingTop:6, paddingBottom:6, border:"none", backgroundColor:"black", color:"white", borderRadius:"10px", cursor:"pointer" }}>Post</button>
                 </div>
             </div>
